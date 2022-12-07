@@ -1,0 +1,83 @@
+/*NEWS CARDS*/
+.news-cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 25;
+  margin-left: -290px;
+  
+  
+}
+
+.news-cards img {
+  width: 225px;
+  height: 225px;
+
+  
+}
+.news-cards h3 {
+  font-size: 20px;
+  margin: 10px 0;
+}
+
+/*NEWS CARDS2*/
+.news-cards2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 25;
+  margin: 505;
+  margin: 5px 0;
+}
+.news-cards2 img {
+  width: 160px;
+  height: 110px;
+  padding: 10px;
+
+
+  
+}
+.news-cards2 h3 {
+  font-size: 20px;
+  margin: 10px 0;
+}
+
+/*NEWS CARDSP*/
+.news-cardsP h3 {
+  font-size: 20px;
+  margin: 5px 0;
+}
+
+.bannerMarinela{
+  margin-right: 65px;
+  padding: 100px;
+  
+}
+.bannerMarinela img{
+  margin-left: -230px;
+}
+
+
+  
+.Proveedores {
+  list-style: none;
+  padding: 0;
+  max-width: 10000px;
+  padding-left: 300px;
+
+}
+
+.Proveedores li a{
+	text-decoration: none;
+	color: rgba(8, 53, 255, 0.712);
+	padding: 20px;
+	display: block;
+}
+
+
+.Proveedores li{
+  display: inline-block;
+	text-align: center;
+}
+
+.Proveedores li a:hover{
+	background: #85ef54;
+}

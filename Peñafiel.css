@@ -1,0 +1,91 @@
+/*NEWS CARDS*/
+.news-cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 25;
+  margin-left: -300px;
+  margin: 200px 1110;
+}
+.news-cards img {
+  width: 225px;
+  height: 225px;
+  padding: 10px;
+
+
+  
+}
+.news-cards h3 {
+  font-size: 20px;
+  margin: 10px 0;
+}
+
+/*NEWS CARDS2*/
+.news-cards2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 25;
+  margin: 505;
+  margin: 5px 0;
+}
+.news-cards2 img {
+  width: 160px;
+  height: 110px;
+  padding: 10px;
+
+
+  
+}
+.news-cards2 h3 {
+  font-size: 20px;
+  margin: 10px 0;
+}
+
+/*NEWS CARDSP*/
+.news-cardsP h3 {
+  font-size: 20px;
+  margin: 5px 0;
+}
+
+.BannerCocacola{
+  margin-right: 65px;
+  margin: 70px 0;
+  
+}
+.BannerCocacola img{
+  margin-left: -300px;
+}
+.Proveedores {
+  list-style: none;
+  padding: 0;
+  max-width: 10000px;
+  padding-left: 550px;
+  margin-left: -280px;
+
+}
+.Proveedores figure{
+  position: relative;
+  cursor: pointer;
+  width: 350px;
+  overflow: hidden;
+  border-radius: 6px;
+  box-shadow: 0px 15px 25px rgba(0,0,0,0.50);
+
+}
+.Proveedores li a{
+	text-decoration: none;
+	color: rgba(8, 53, 255, 0.712);
+	padding: 20px;
+	display: block;
+}
+
+
+
+
+.Proveedores li{
+  display: inline-block;
+	text-align: center;
+}
+
+.Proveedores li a:hover{
+	background: #85ef54;
+}
